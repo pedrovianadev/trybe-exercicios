@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+ol{
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+ul:hover, ol:hover {
+    background-color: greenyellow;
+}
