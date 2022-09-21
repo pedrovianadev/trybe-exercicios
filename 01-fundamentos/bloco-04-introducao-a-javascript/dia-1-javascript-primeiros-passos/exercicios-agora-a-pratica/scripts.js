@@ -120,3 +120,14 @@ console.log(isEven);
 
 // Exercício 9
 
+let numA = 20;
+let numB = 10;
+let numC = 40;
+
+let isOdd = false;
+
+if((numA % 2 !== 0 || numB % 2 !== 0 || numC % 2 !== 0)){
+    isOdd = true;
+};
+console.log(isOdd);
+// basicamente fazer a mesma coisa do exercício 8!
