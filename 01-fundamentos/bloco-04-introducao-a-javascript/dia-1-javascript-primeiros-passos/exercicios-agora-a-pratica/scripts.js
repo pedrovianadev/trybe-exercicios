@@ -1,3 +1,4 @@
+// Exercício 1
 let a = 44;
 let b = 240;
 let c = 13;
@@ -8,12 +9,14 @@ console.log("Multiplicação: " + (a * b));
 console.log("Divisão: " + (a / b));
 console.log("Módulo: " + (a % b));
 
+// Exercício 2
 if (a > b) {
     console.log("'a' é maior que 'b'");
 } else {
     console.log("'b' é maior que 'a'");
 };
 
+// Exercício 3
 if (a > b && a > c) {
     console.log('O maior número é: ' + a + ' (a)');
     } else if (b > a && b > c) {
@@ -23,6 +26,7 @@ if (a > b && a > c) {
     };
     // aqui eu estava errando pq estava colocando uma condição no else o que não é necesário
 
+// Exercício 4
 const number = 16;
 
 if (number > 0) {
@@ -33,6 +37,7 @@ if (number > 0) {
     console.log("zero");
 };
 
+// Exercício 5
 let degreeAngleA = 50;
 let degreeAngleB = 100;
 let degreeAngleC = 30;
@@ -51,6 +56,7 @@ if (allAnglesArePositives) {
     console.log('Erro: ângulo inválido!');
 };
 
+// Exercício 6
 const chessPiece = 'peão';
 
 switch (chessPiece.toLowerCase()) {
@@ -77,7 +83,8 @@ switch (chessPiece.toLowerCase()) {
         break;
 };
 
-let grade = 90;
+// Exercício 7
+let grade = 13;
 
 if (grade < 0 || grade > 100) {
     console.log("Nota incorreta! Por favor preencha com um número de 0 a 100!");
@@ -94,3 +101,22 @@ if (grade < 0 || grade > 100) {
 } else {
     console.log('F');
 };
+
+// Exercício 8
+
+let num1 = 15;
+let num2 = 27;
+let num3 = 99;
+
+let isEven = false;
+
+if((num1 % 2 === 0 || num2 % 2 === 0 || num3 % 2 === 0)) {
+    isEven = true;
+};
+
+console.log(isEven);
+
+// nesse tive um pequeno problema pq tinha acabado usando uma let que eu já havia criado kkkk
+
+// Exercício 9
+
