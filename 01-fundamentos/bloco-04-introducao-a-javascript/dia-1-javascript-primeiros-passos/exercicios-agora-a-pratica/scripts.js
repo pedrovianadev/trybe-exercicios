@@ -131,3 +131,16 @@ if((numA % 2 !== 0 || numB % 2 !== 0 || numC % 2 !== 0)){
 };
 console.log(isOdd);
 // basicamente fazer a mesma coisa do exercício 8!
+
+// Exercício 10
+
+let costOfProduct = 100;
+let saleValue = 500;
+
+if (costOfProduct >= 0 && saleValue >= 0) {
+    let totalCostOfProduct = costOfProduct * 1.2;
+    let totalProfit = (saleValue - totalCostOfProduct) * 1000;
+    console.log(totalProfit);
+} else {
+    console.log('Erro, não podem ter valores negativos!');
+};
