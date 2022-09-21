@@ -8,11 +8,11 @@ console.log("Multiplicação: " + (a * b));
 console.log("Divisão: " + (a / b));
 console.log("Módulo: " + (a % b));
 
-// if (a > b) {
-//     console.log("'a' é maior que 'b'");
-// } else {
-//     console.log("'b' é maior que 'a'");
-// };
+if (a > b) {
+    console.log("'a' é maior que 'b'");
+} else {
+    console.log("'b' é maior que 'a'");
+};
 
 if (a > b && a > c) {
     console.log('O maior número é: ' + a + ' (a)');
@@ -49,4 +49,30 @@ if (allAnglesArePositives) {
     };
 } else {
     console.log('Erro: ângulo inválido!');
+};
+
+const chessPiece = 'peão';
+
+switch (chessPiece.toLowerCase()) {
+    case 'rei':
+        console.log('Rei: Apenas uma cara em qualquer direção.');
+        break
+    case 'rainha':
+        console.log('Rainha: Quantas casas quiser na diagonal, horizontal e vertical.');
+        break
+    case 'bispo':
+        console.log('Bispo: Quantas casas quiser na diagonal.');
+        break
+    case 'cavalo':
+        console.log('Cavalo: Se movimenta em "L" e pula sobre peças.');
+        break
+    case 'torre':
+        console.log('Torre: Quantas casas quiser na horizontal e vertical.');
+        break
+    case 'peão':
+        console.log('Peão: Se move apenas uma casa para frente e apenas no seu primeiro movimento pode escolher entre se mover uma ou duas casas.');
+        break
+    default:
+        console.log('Erro, peça inválida');
+        break;
 };
