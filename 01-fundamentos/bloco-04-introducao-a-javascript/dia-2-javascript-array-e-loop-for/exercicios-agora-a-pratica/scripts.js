@@ -1,4 +1,4 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // usado no exercício 2 e 4 
 // let result = 0;
 
@@ -64,3 +64,28 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 // } else {
 //     console.log(result);
 // }
+
+// Exercício 7
+// let smallestNumber = numbers[0];
+
+// for (let index = 1; index < numbers.length; index += 1) {
+//     if (numbers[index] < smallestNumber) {
+//         smallestNumber = numbers[index];
+//     }
+// }
+
+// console.log(smallestNumber);
+
+// Exercício 8
+let numbers = [];
+
+for (let index = 1; index <= 25; index += 1) {
+    numbers.push(index);
+}
+
+console.log(numbers);
+
+// Exercício 9
+for (let index = 0; index < numbers.length; index += 1) {
+    console.log(numbers[index] / 2);
+}
