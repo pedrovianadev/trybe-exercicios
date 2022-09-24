@@ -55,3 +55,5 @@ for (let currentNumber = 2; currentNumber <= 50; currentNumber +=1) {
 }
 
 console.log(biggestPrimeNumber);
+
+// Essa aqui é muito grande, mas acredito ter entendido o raciocínio, só quero conseguir trabalhar um pouco minha lógica para poder entender melhor o que foi feito hoje
