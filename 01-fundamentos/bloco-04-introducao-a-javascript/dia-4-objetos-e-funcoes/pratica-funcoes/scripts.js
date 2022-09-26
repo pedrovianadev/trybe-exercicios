@@ -52,3 +52,22 @@
 //     }
 // }
 // console.log(positiveNegative(0));
+
+// function triangleAngles(angleA, angleB, angleC){
+//     let sumOfAngles = angleA + angleB + angleC;
+//     let allAnglesArePositives = angleA > 0 && angleB > 0 && angleC > 0;
+
+//     if (allAnglesArePositives){
+//         if (sumOfAngles === 180){
+//             return true;
+//         } else {
+//             return false;
+//         }
+//     } else {
+//         return 'Error: invalid angle!';
+//     }
+// }
+
+// console.log(triangleAngles(100, 30, 40));
+
+// Não consegui fazer o retorno da mensagem de erro, pq?!
