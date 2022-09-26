@@ -20,12 +20,24 @@
 
 // console.log(mod(5, 29));
 
-function biggestNumber (firstNumber, secondNumber) {
-    if (firstNumber > secondNumber) {
-        return firstNumber + ' é maior que ' + secondNumber;
+// function biggestNumber (firstNumber, secondNumber) {
+//     if (firstNumber > secondNumber) {
+//         return firstNumber + ' é maior que ' + secondNumber;
+//     } else {
+//         return secondNumber + ' é maior que ' + firstNumber;
+//     }
+// }
+
+// console.log(biggestNumber(101,89));
+
+function greaterThanThree(firstNumber, secondNumber, thirdNumber){
+    if (firstNumber > secondNumber && firstNumber > thirdNumber) {
+        return firstNumber + ' é o maior número!';
+    } else if ( secondNumber > firstNumber && secondNumber > thirdNumber) {
+        return secondNumber + ' é o maior número!';
     } else {
-        return secondNumber + ' é maior que ' + firstNumber;
+        return thirdNumber + ' é o maior número!';
     }
 }
 
-console.log(biggestNumber(101,89));
+console.log(greaterThanThree(1000,667,199));
