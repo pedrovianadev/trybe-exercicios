@@ -27,7 +27,7 @@
 let size = 5;
 let symbol = '*';
 let inputLine = '';
-let inputPosition = size - 1;
+let inputPosition = size;
 
 for (let lineIndex = 0; lineIndex < size; lineIndex += 1){
     for(let columnIndex = 0; columnIndex < size; columnIndex += 1){
@@ -41,3 +41,5 @@ for (let lineIndex = 0; lineIndex < size; lineIndex += 1){
     inputLine = '';
     inputPosition -= 1;
 }
+
+// Exercício bonus 4
