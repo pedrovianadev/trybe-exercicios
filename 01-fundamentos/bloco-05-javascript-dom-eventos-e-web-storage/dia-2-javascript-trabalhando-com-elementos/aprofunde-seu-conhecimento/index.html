@@ -118,11 +118,28 @@
 // 
 // 
 // 
-      for(let index = 0; index < 56; index += 1){
+      for(let index = 0; index < 3; index += 1){
         let h3 = document.createElement('h3');
         h3.innerHTML = index;
         mainContent.appendChild(h3);
       }
+// 
+// 
+// 
+// PARTE 2
+      const title = document.querySelector('h1');
+      title.className = 'title';
+// 
+// 
+// 
+      const h3 = document.getElementsByTagName('h3');
+      for (let index = 0; index < 3; index += 1){
+        h3[index].className = 'description';
+      }
+// 
+// 
+// 
+
     </script>
   </body>
 </html>
