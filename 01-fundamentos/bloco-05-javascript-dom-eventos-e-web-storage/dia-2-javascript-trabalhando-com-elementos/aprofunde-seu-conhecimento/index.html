@@ -62,6 +62,84 @@
       h1.innerHTML = 'Exercício 5.2 - <em>JavaScript DOM</em>';
 
       document.body.appendChild(h1);
+// 
+// 
+// 
+      const mainContent = document.createElement('main');
+      mainContent.className = 'main-content';
+      // mainContent.innerHTML = 'XABLAU';
+      document.body.appendChild(mainContent);
+// Aqui eu tava vacilando colocando aspas no appendChild mas pra chamar minha const não precisa
+// 
+// 
+// 
+      const centerContent = document.createElement('div');
+      centerContent.className = 'center-content';
+      // centerContent.innerHTML = 'AQUI TÁ O XABLAUZÃÃÃÃÃO';
+      mainContent.appendChild(centerContent);
+// 
+// 
+// 
+      const p = document.createElement('p');
+      p.innerHTML = '<strong>XABLAUUUUUUUUUUZAAAAUMMMMM</strong>';
+      centerContent.appendChild(p);
+// 
+// 
+// 
+      const leftContent = document.createElement('div');
+      leftContent.className = 'left-content';
+      mainContent.appendChild(leftContent);
+// 
+// 
+// 
+      const rightContent = document.createElement('div');
+      rightContent.className = 'right-content';
+      mainContent.appendChild(rightContent);
+// 
+// 
+// 
+      const img = document.createElement('img');
+      img.src = 'https://picsum.photos/200';
+      img.className = 'small-image';
+      leftContent.appendChild(img);
+// 
+// 
+// 
+      const ul = document.createElement('ul');
+      let numbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
+        'Sete', 'Oito', 'Nove', 'Dez'];
+      for (let index = 0; index < numbers.length; index += 1) {
+        let li = document.createElement('li');
+        li.innerText = numbers[index];
+        ul.appendChild(li);
+      }
+
+      rightContent.appendChild(ul);
+// 
+// 
+// 
+      for(let index = 0; index < 3; index += 1){
+        let h3 = document.createElement('h3');
+        h3.innerHTML = index;
+        mainContent.appendChild(h3);
+      }
+// 
+// 
+// 
+// PARTE 2
+      const title = document.querySelector('h1');
+      title.className = 'title';
+// 
+// 
+// 
+      const h3 = document.getElementsByTagName('h3');
+      for (let index = 0; index < 3; index += 1){
+        h3[index].className = 'description';
+      }
+// 
+// 
+// 
+
     </script>
   </body>
 </html>
