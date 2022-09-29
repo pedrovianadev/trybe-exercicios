@@ -105,7 +105,24 @@
 // 
 // 
 // 
-      
+      const ul = document.createElement('ul');
+      let numbers = ['Um', 'Dois', 'Três', 'Quatro', 'Cinco', 'Seis',
+        'Sete', 'Oito', 'Nove', 'Dez'];
+      for (let index = 0; index < numbers.length; index += 1) {
+        let li = document.createElement('li');
+        li.innerText = numbers[index];
+        ul.appendChild(li);
+      }
+
+      rightContent.appendChild(ul);
+// 
+// 
+// 
+      for(let index = 0; index < 56; index += 1){
+        let h3 = document.createElement('h3');
+        h3.innerHTML = index;
+        mainContent.appendChild(h3);
+      }
     </script>
   </body>
 </html>
