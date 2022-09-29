@@ -67,9 +67,45 @@
 // 
       const mainContent = document.createElement('main');
       mainContent.className = 'main-content';
-      mainContent.innerHTML = 'XABLAU';
+      // mainContent.innerHTML = 'XABLAU';
       document.body.appendChild(mainContent);
 // Aqui eu tava vacilando colocando aspas no appendChild mas pra chamar minha const não precisa
+// 
+// 
+// 
+      const centerContent = document.createElement('div');
+      centerContent.className = 'center-content';
+      // centerContent.innerHTML = 'AQUI TÁ O XABLAUZÃÃÃÃÃO';
+      mainContent.appendChild(centerContent);
+// 
+// 
+// 
+      const p = document.createElement('p');
+      p.innerHTML = '<strong>XABLAUUUUUUUUUUZAAAAUMMMMM</strong>';
+      centerContent.appendChild(p);
+// 
+// 
+// 
+      const leftContent = document.createElement('div');
+      leftContent.className = 'left-content';
+      mainContent.appendChild(leftContent);
+// 
+// 
+// 
+      const rightContent = document.createElement('div');
+      rightContent.className = 'right-content';
+      mainContent.appendChild(rightContent);
+// 
+// 
+// 
+      const img = document.createElement('img');
+      img.src = 'https://picsum.photos/200';
+      img.className = 'small-image';
+      leftContent.appendChild(img);
+// 
+// 
+// 
+      
     </script>
   </body>
 </html>
