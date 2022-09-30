@@ -44,3 +44,17 @@ function createDaysOfTheWeek() {
   }
 
   createDaysOfTheMonth();
+
+
+//   
+
+  function createHollidayButton(buttonName) {
+    let buttonContainer = document.querySelector('.buttons-container');
+    let newButton = document.createElement('button');
+    let newButtonId = 'btn-holliday';
+    newButton.innerHTML = buttonName;
+    newButton.id = newButtonId;
+    buttonContainer.appendChild(newButton);
+  }
+
+  createHollidayButton();
