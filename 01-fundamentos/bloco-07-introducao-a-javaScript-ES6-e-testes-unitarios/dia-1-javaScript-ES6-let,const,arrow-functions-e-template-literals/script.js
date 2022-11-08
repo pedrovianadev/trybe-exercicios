@@ -45,15 +45,15 @@ console.log(sortOddsAndEvens([1, 5, 16, 2, 13, 2, 45, 3])); // será necessário
 
 // tentando o bonus do exercicio 1 parte 2
 
-const factorial = (number) => {
-  if (number > 1) {
-    return number * factorial(number - 1);
-  } else {
-    return 1;
-  }
-};
+// const factorial = (number) => {
+//   if (number > 1) {
+//     return number * factorial(number - 1);
+//   } else {
+//     return 1;
+//   }
+// };
 
-console.log(factorial(13));
+// console.log(factorial(13));
 
 // em uma única linha
 
